@@ -1,0 +1,76 @@
+body, html {
+	background-color: gray;
+	padding: 0px;
+	margin: 0px;
+}
+
+#pdf {
+	/* 96 ppi */
+	height: 1056px;
+	width: 816px;
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+	display: flex;
+}
+
+#header-left {
+	width: 25%;
+	padding: 10px;
+}
+
+#header-middle {
+	display: flex;
+	width: 50%;
+	/* margin: auto;
+	text-align: center; */
+}
+
+#header-middle p {
+	margin: auto;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#header-right {
+	width: 25%;
+	padding: 10px;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.section {
+	padding: 5px 10px 0px 10px;
+	padding-bottom: 0px;
+}
+
+.section-header {
+	border-bottom: 2px solid black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.item-header {
+	display: flex;
+	padding-top: 5px;
+}
+
+.item-title {
+	width: 80%;
+}
+
+.item-date {
+	width: 20%;
+}
+
+.item ul {
+	/* padding: 0; */
+	padding-left: 20px;
+	margin: 0;
+}

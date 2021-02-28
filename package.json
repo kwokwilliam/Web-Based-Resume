@@ -18,7 +18,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"produce-pdf": "node scripts/produce-pdf.js",
-		"start-html-example": "live-server html-resume-example"
+		"start-html-example": "live-server --port=3000 html-resume-example"
 	},
 	"eslintConfig": {
 		"extends": [

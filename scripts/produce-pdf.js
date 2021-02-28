@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 
-	await page.goto("http://localhost:8080?resumeonly=true", {
+	await page.goto("http://localhost:3000?resumeonly=true", {
 		waitUntil: "networkidle2"
 	});
 
